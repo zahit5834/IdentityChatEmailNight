@@ -1,0 +1,54 @@
+﻿﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+@await Component.InvokeAsync("_HeaderComponentPartial")
+
+<body>
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+
+    <div id="main-wrapper" class="show menu-toggle">
+
+        @await Component.InvokeAsync("_NavbarComponentPartial")
+        <div class="content-body">
+            <div class="row page-titles mx-0">
+                <div class="col p-md-0">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="javascript:void(0)">@ViewBag.Kategori</a></li>
+                        <li class="breadcrumb-item active"><a href="javascript:void(0)">@ViewBag.AltKategori</a></li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                @await Component.InvokeAsync("_SidebarComponentPartial")
+
+                                @RenderBody()
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        @await Component.InvokeAsync("_FooterComponentPartial")
+
+    </div>
+
+    @await Component.InvokeAsync("_ScriptComponentPartial")
+</body>
+</html>
