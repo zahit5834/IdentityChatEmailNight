@@ -7,17 +7,16 @@
 	<div role="toolbar" class="toolbar">
 		<br />
 		<div class="m-2">
-			<div class="input-group icons">
-				<div class="input-group-prepend">
-					<span class="input-group-text bg-transparent border-0 pr-2 pr-sm-3" id="basic-addon1"><i class="mdi mdi-magnify"></i></span>
+			<form action="get">
+				<div class="input-group icons">
+
+					<div class="input-group-prepend">
+						<button class="input-group-text bg-transparent border-0 pr-2 pr-sm-3" id="basic-addon1"><i class="mdi mdi-magnify"></i></button>
+					</div>
+					<input type="text" name="search" value="@Context.Request.Query["search"]" class="form-control" placeholder="Konuya Göre Ara...">
 				</div>
-				<input type="search" class="form-control" placeholder="Konu Ara" aria-label="Konu Ara">
-				<div class="drop-down d-md-none">
-					<form action="#">
-						<input type="text" class="form-control" placeholder="Ara">
-					</form>
-				</div>
-			</div>
+			</form>
+
 		</div>
 		<br />
 	</div>
