@@ -65,10 +65,10 @@ Kullanıcı bilgileri `AspNetUsers` tablosunda tutulur.
 ## 📷 Ekran Görüntüleri
 
 ### 1. Giriş Sayfası
-![Login](wwwroot/assets/Login.png)
+![Login](assets/Login.png)
 
 ### 2. Kayıt Sayfası
-![Register](wwwroot/assets/Register.png)
+![Register](assets/Register.png)
 
 ### 3. Profil Sayfası
 ![Profil](wwwroot/assets/Profil.png)
