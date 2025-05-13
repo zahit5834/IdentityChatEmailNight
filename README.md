@@ -61,3 +61,30 @@ Kullanıcı bilgileri `AspNetUsers` tablosunda tutulur.
 - Giriş yapmış kullanıcının bilgileri `User.Identity.Name` üzerinden alınır.
 - E-posta gönderirken `SenderEmail`, giriş yapan kullanıcıdan otomatik olarak çekilir.
 - `ViewBag` üzerinden gelen ve giden mesaj sayıları **dinamik** olarak gösterilir.
+
+## 📷 Ekran Görüntüleri
+
+### 1. Giriş Sayfası
+![Login](wwwroot/assets/Login.png)
+
+### 2. Kayıt Sayfası
+![Register](wwwroot/assets/Register.png)
+
+### 3. Profil Sayfası
+![Profil](wwwroot/assets/Profil.png)
+
+### 4. Gelen Kutusu
+![Gelen Kutusu](wwwroot/assets/Gelen%20Kutusu.png)
+
+### 5. Giden Kutusu
+![Giden Kutusu](wwwroot/assets/Giden%20Kutusu.png)
+
+### 6. Arama Sayfası
+![Arama Kutusu](wwwroot/assets/Arama%20Kutusu.png)
+
+### 7. Mesaj Detayları
+![Mesaj Detayları](wwwroot/assets/Mesaj%20Detayları.png)
+
+### 8. Mesaj Gönderme
+![Mesaj Gönderme](wwwroot/assets/Mesaj%20Gönderme.png)
+
