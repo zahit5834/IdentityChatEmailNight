@@ -71,20 +71,20 @@ Kullanıcı bilgileri `AspNetUsers` tablosunda tutulur.
 ![Register](assets/Register.png)
 
 ### 3. Profil Sayfası
-![Profil](wwwroot/assets/Profil.png)
+![Profil](assets/Profil.png)
 
 ### 4. Gelen Kutusu
-![Gelen Kutusu](wwwroot/assets/Gelen%20Kutusu.png)
+![Gelen Kutusu](assets/Gelen%20Kutusu.png)
 
 ### 5. Giden Kutusu
-![Giden Kutusu](wwwroot/assets/Giden%20Kutusu.png)
+![Giden Kutusu](assets/Giden%20Kutusu.png)
 
 ### 6. Arama Sayfası
-![Arama Kutusu](wwwroot/assets/Arama%20Kutusu.png)
+![Arama Kutusu](assets/Arama%20Kutusu.png)
 
 ### 7. Mesaj Detayları
-![Mesaj Detayları](wwwroot/assets/Mesaj%20Detayları.png)
+![Mesaj Detayları](assets/Mesaj%20Detayları.png)
 
-### 8. Mesaj Gönderme
-![Mesaj Gönderme](wwwroot/assets/Mesaj%20Gönderme.png)
+### 8. Mesaj Ekranı
+![Mesaj Gönderme](assets/Mesaj%20Gönderme.png)
 
